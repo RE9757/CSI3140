@@ -1,0 +1,49 @@
+<!-- Group of 36-->
+<!--- Zhong Tao 300222579 -->
+<!--  Fengshou Xu 300036335-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q 8.4</title>
+    <link rel="stylesheet" type="text/css" href="../css/8.4.css">
+</head>
+<body>
+    <h2> a. For->for, infinite loop, "," is not correct in loop condition</h2>
+    <pre>
+        //correction: 
+        for ( x = 100; x >= 1; --x )
+            document.writeln( x );
+    </pre>
+    <h2> b. missing "break" in each condition</h2>
+    <pre>
+        //correction:
+        switch (value % 2) {
+            case 0:
+                document.writeln("Even integer");
+                break;
+            case 1:
+                document.writeln("Odd integer");
+                break;
+        }        
+    </pre>
+    <h2> c. infinite loop</h2>
+    <pre>
+        //correction:
+        for (x = 19; x >= 1; x -= 2) {
+            document.writeln(x);
+        }        
+    </pre>
+    <h2> d. counter < 100 not including 100 in the condition</h2>
+    <pre>
+        //correction:
+        counter = 2;
+        do {
+            document.writeln(counter);
+            counter += 2;
+        } while (counter <= 100);         
+    </pre>
+    <script src="../javascript/8.4.js"></script>
+</body>
+</html>

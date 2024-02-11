@@ -1,0 +1,52 @@
+<!-- Group of 36-->
+<!--- Zhong Tao 300222579 -->
+<!--  Fengshou Xu 300036335-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q 7.9</title>
+    <link rel="stylesheet" type="text/css" href="../css/7.9.css">
+</head>
+<body>
+    <h2> a. ";" mistake</h2>
+    <pre>
+        //correction: 
+        if (age >= 65) {
+            document.writeln("Age greater than or equal to 65");
+        } else {
+            document.writeln("Age is less than 65");
+        }        
+    </pre>
+    <h2> b. total variable is not defined before usage</h2>
+    <pre>
+        //correction:
+        var x = 1, total = 0;
+        while (x <= 10) {
+            total += x;
+            ++x;
+        }
+    </pre>
+    <h2> c. While -> while, total needs declear</h2>
+    <pre>
+        //correction:
+        var x = 1;
+        var total = 0;
+        while (x <= 100) {
+            total += x;
+            ++x;
+        }
+    </pre>
+    <h2> d. ++y causes infinite loop</h2>
+    <pre>
+        //correction:
+        var y = 5;
+        while (y > 0) {
+            document.writeln(y);
+            --y; 
+        }        
+    </pre>
+    <script src="../javascript/7.9.js"></script>
+</body>
+</html>
