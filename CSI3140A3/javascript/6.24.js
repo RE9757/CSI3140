@@ -1,3 +1,9 @@
+/* Group of 36 */
+/* Zhong Tao 300222579 */
+/* Fengshou Xu 300036335 */
+
+
+
 // Function to calculate squares and cubes and append them to the table
 function calculateAndDisplaySquaresCubes() {
     var table = document.querySelector('table'); // Select the table element

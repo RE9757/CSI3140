@@ -1,3 +1,8 @@
+/* Group of 36 */
+/* Zhong Tao 300222579 */
+/* Fengshou Xu 300036335 */
+
+
 document.getElementById('calculateButton').addEventListener('click', function() {
 
     let num1 = parseInt(prompt("Enter the first integer: "), 10);

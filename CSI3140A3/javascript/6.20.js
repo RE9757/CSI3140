@@ -1,3 +1,8 @@
+/* Group of 36 */
+/* Zhong Tao 300222579 */
+/* Fengshou Xu 300036335 */
+
+
 // Function to get a number input from the user and return it as an integer
 function getNumberInput(message) {
     var input = prompt(message);
