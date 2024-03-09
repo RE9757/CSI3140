@@ -13,10 +13,12 @@ function flip() {//tails false, heads true
 function updateCounts() {
     document.getElementById('headsCount').textContent = headsCount;
     document.getElementById('tailsCount').textContent = tailsCount;
+    document.getElementById('lastResult').textContent = result ? "Heads" : "Tails";
 }
 
 function tossCoin() {
-    if (flip()) {
+    result = flip();
+    if (result) {
         headsCount++;
     } else {
         tailsCount++;
