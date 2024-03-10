@@ -1,0 +1,15 @@
+/* Group of 36 */
+/* Zhong Tao 300222579 */
+/* Fengshou Xu 300036335 */
+
+#DraggableContainer {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+#DraggableImg {
+    position: absolute;
+    cursor: pointer;
+}

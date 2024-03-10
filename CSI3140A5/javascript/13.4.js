@@ -43,5 +43,4 @@ function eraseAll(){
     }
 }
 
- //初始化画布
 window.addEventListener("load", createCanvas, false);
