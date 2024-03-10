@@ -1,0 +1,28 @@
+/* Group of 36 */
+/* Zhong Tao 300222579 */
+/* Fengshou Xu 300036335 */
+
+
+
+.blue {
+    background-color: blue; 
+}
+
+.red {
+    background-color: red; 
+}
+
+.white {
+    background-color: white; 
+}
+
+#canvas {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #999999;
+    border-collapse: collapse;
+}
+td{
+    width: 4px; height: 4px; margin: 0px; padding: 0px;
+}
+
