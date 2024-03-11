@@ -13,9 +13,9 @@ function verticalLinearGradient(){
     ctx.lineTo(width/2-120, height/4+160);
     ctx.lineTo(width/2, height/4);
     ctx.closePath();
-    let gradient = ctx.createLinearGradient(width/2, height/4, width/2, height/4+80);
+    let gradient = ctx.createLinearGradient(width/2, height/4, width/2, height/4+160);
     gradient.addColorStop(0, 'red');
-    gradient.addColorStop(0.9, 'purple');
+    gradient.addColorStop(0.5, 'purple');
     gradient.addColorStop(1, 'blue');
     ctx.fillStyle = gradient;
     ctx.fill();
