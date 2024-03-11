@@ -2,10 +2,19 @@
 /* Zhong Tao 300222579 */
 /* Fengshou Xu 300036335 */
 
-function start(){
-    var inputColor = prompt("Enter a color name for the " + "background of this page", "");
-    var inputFont = prompt("Enter a font name for the " + "font of body", "")
-    document.body.setAttribute("style", "background-color: " + inputColor + "; font-family: "+ inputFont + ";");
-}//end of function start
+document.addEventListener("DOMContentLoaded", function() {
+    const backgroundSelect = document.getElementById('backgroundColorSelect');
+    const fontStyleRadios = document.getElementsByName('fontStyleChoice');
+    
+    backgroundSelect.addEventListener('change', function() {
+        document.body.style.backgroundColor = this.value;
+    });
 
-window.addEventListener("load", start, false);
+    Array.prototype.forEach.call(fontStyleRadios, function(radio) {
+        radio.addEventListener('change', function() {
+            if (this.checked) {
+                document.body.style.fontFamily = this.value ;
+            }
+        });
+    });
+});

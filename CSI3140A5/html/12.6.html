@@ -6,11 +6,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q 12.6</title>
     <link rel="stylesheet" type="text/css" href="../css/12.6.css">
 </head>
 <body>
-    <h1 style="color: grey;">example txt</h1>
+    <div id="styleControls">
+        <label for="backgroundColorSelect">Please choose website background color:</label>
+        <select id="backgroundColorSelect">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+        
+        <fieldset>
+            <legend>Font Style:</legend>
+            <label>
+                <input type="radio" name="fontStyleChoice" value="serif" checked>Serif
+            </label>
+            <label>
+                <input type="radio" name="fontStyleChoice" value="sans-serif">Sans-serif
+            </label>
+        </fieldset>
+    </div>
+
+    <div>
+        <p id="sampleText">Example txt Example txt Example txt Example txt Example txt Example txt Example txt 
+            Example txt Example txt Example txt Example txt Example txt Example txt Example txt 
+            Example txt Example txt Example txt Example txt Example txt Example txt Example txt 
+            Example txt Example txt Example txt Example txt Example txt Example txt Example txt 
+            Example txt Example txt Example txt Example txt Example txt Example txt Example txt 
+        </p>
+    </div>
     <script src="../javascript/12.6.js"></script>
 </body>
 </html>
