@@ -8,14 +8,14 @@
     </calories>
     <fat>
         <total>11 grams</total>
-        <saturatedGrams>2 grams</saturatedGrams>
+        <saturated>2 grams</saturated>
     </fat>
     <cholesterol>5 milligrams</cholesterol>
     <sodium>210 milligrams</sodium>
     <carbohydrates>
         <total>36 grams</total>
-        <fiberGrams>2 grams</fiberGrams>
-        <sugarGrams>15 grams</sugarGrams>
+        <fiber>2 grams</fiber>
+        <sugar>15 grams</sugar>
     </carbohydrates>
     <protein>5 grams</protein>
 </nutritionInfo>
