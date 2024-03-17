@@ -19,7 +19,7 @@
    <xsl:template match = "book">
       <head>
          <meta charset = "utf-8"/>
-         <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+         <link rel = "stylesheet" type = "text/css" href = "../css/style.css"/>
          <title>ISBN <xsl:value-of select = "@isbn"/> - 
             <xsl:value-of select = "title"/></title>    
       </head>
