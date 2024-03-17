@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="nutrition">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="product">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="servingSize" type="xs:string" />
+                            <xs:element name="calories">
+                                <xs:complexType>
+                                    <xs:attribute name="total" type="xs:int" use="required" />
+                                    <xs:attribute name="fromFat" type="xs:int" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="fat">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="saturatedGrams" type="xs:int" />
+                                    </xs:sequence>
+                                    <xs:attribute name="totalGrams" type="xs:int" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="cholesterol" type="xs:int" />
+                            <xs:element name="sodium" type="xs:int" />
+                            <xs:element name="carbohydrates">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="fiberGrams" type="xs:int" />
+                                        <xs:element name="sugarGrams" type="xs:int" />
+                                    </xs:sequence>
+                                    <xs:attribute name="totalGrams" type="xs:int" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="protein" type="xs:int" />
+                        </xs:sequence>
+                        <xs:attribute name="name" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
