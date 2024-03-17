@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<nutrition>
+    <product name="Grandma White’s Cookies">
+        <servingSize>1 package</servingSize>
+        <calories total="260" fromFat="100"/>
+        <fat totalGrams="11">
+            <saturatedGrams>2</saturatedGrams>
+        </fat>
+        <cholesterol milligrams="5"/>
+        <sodium milligrams="210"/>
+        <carbohydrates totalGrams="36">
+            <fiberGrams>2</fiberGrams>
+            <sugarGrams>15</sugarGrams>
+        </carbohydrates>
+        <protein grams="5"/>
+    </product>
+</nutrition>
