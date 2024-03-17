@@ -8,12 +8,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     if (canvas.getContext) {
         const ctx = canvas.getContext('2d');
 
-        // // Draw a circle
-        // ctx.beginPath();
-        // ctx.arc(500, 500, 50, 0, Math.PI * 2);
-        // ctx.fillStyle = 'mediumslateblue';
-        // ctx.fill();
-
         const centerX = canvas.width / 2;
         const centerY = canvas.height / 2;
         const colors = ['red', 'green', 'blue', 'yellow', 'purple', 'orange', 'pink', 'black'];
