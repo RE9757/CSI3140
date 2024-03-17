@@ -1,43 +1,49 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
     <xs:element name="nutritionInfo">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="product">
+                <xs:element name="productName" type="xs:string" />
+                <xs:element name="servingSize" type="xs:string" />
+
+                <!-- Calories now contains total and fat sub-elements -->
+                <xs:element name="calories">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="servingSize" type="xs:string" />
-                            <xs:element name="calories">
-                                <xs:complexType>
-                                    <xs:attribute name="total" type="xs:int" use="required" />
-                                    <xs:attribute name="fromFat" type="xs:int" use="required" />
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="fat">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="saturatedGrams" type="xs:int" />
-                                    </xs:sequence>
-                                    <xs:attribute name="totalGrams" type="xs:int" use="required" />
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="cholesterol" type="xs:int" />
-                            <xs:element name="sodium" type="xs:int" />
-                            <xs:element name="carbohydrates">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="fiberGrams" type="xs:int" />
-                                        <xs:element name="sugarGrams" type="xs:int" />
-                                    </xs:sequence>
-                                    <xs:attribute name="totalGrams" type="xs:int" use="required" />
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="protein" type="xs:int" />
+                            <xs:element name="total" type="xs:int" />
+                            <xs:element name="fat" type="xs:int" />
                         </xs:sequence>
-                        <xs:attribute name="name" type="xs:string" use="required" />
                     </xs:complexType>
                 </xs:element>
+
+                <!-- Fat now contains total and saturated sub-elements -->
+                <xs:element name="fat">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="total" type="xs:int" />
+                            <xs:element name="saturated" type="xs:int" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="cholesterol" type="xs:int" />
+                <xs:element name="sodium" type="xs:int" />
+
+                <!-- Carbohydrates now contains total, fiber, and sugars sub-elements -->
+                <xs:element name="carbohydrates">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="total" type="xs:int" />
+                            <xs:element name="fiber" type="xs:int" />
+                            <xs:element name="sugars" type="xs:int" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="protein" type="xs:int" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
 </xs:schema>
