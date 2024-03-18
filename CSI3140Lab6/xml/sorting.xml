@@ -1,8 +1,7 @@
 <?xml version = "1.0"?>
-<?xml-stylesheet type = "text/xsl" href = "sorting_byPage.xsl"?>
+<?xml-stylesheet type = "text/xsl" href = "../xsl/sorting_byPage.xsl"?>
 
-<!-- Fig. 15.20 sorting.xml -->
-<!-- XML document containing book information -->
+
 <book isbn = "999-99999-9-X">
    <title>Deitel&apos;s XML Primer</title>
 
