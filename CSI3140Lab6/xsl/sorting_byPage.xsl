@@ -1,7 +1,8 @@
 <?xml version = "1.0"?>
 
-<!-- Fig. 15.21: sorting_byPage.xsl -->
-<!-- Transformation of book information into HTML5 -->
+<!-- Group of 36-->
+<!--- Zhong Tao 300222579 -->
+<!--  Fengshou Xu 300036335-->
 <xsl:stylesheet version = "1.0"                       
    xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 
@@ -93,19 +94,3 @@
 </xsl:stylesheet>
 
 
-<!-- 
- ************************************************************************** 
- * (C) Copyright 1992-2006 by Deitel & Associates, Inc. and               *
- * Pearson Education, Inc. All Rights Reserved.                           *
- *                                                                        *
- * DISCLAIMER: The authors and publisher of this book have used their     *
- * best efforts in preparing the book. These efforts include the          *
- * development, research, and testing of the theories and programs        *
- * to determine their effectiveness. The authors and publisher make       *
- * no warranty of any kind, expressed or implied, with regard to these    *
- * programs or to the documentation contained in these books. The authors *
- * and publisher shall not be liable in any event for incidental or       *
- * consequential damages in connection with, or arising out of, the       *
- * furnishing, performance, or use of these programs.                     *
- **************************************************************************
--->

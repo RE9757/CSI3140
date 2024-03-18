@@ -1,6 +1,8 @@
 <?xml version = "1.0"?>
 <?xml-stylesheet type = "text/xsl" href = "../xsl/sorting_byPage.xsl"?>
-
+<!-- Group of 36-->
+<!--- Zhong Tao 300222579 -->
+<!--  Fengshou Xu 300036335-->
 
 <book isbn = "999-99999-9-X">
    <title>Deitel&apos;s XML Primer</title>

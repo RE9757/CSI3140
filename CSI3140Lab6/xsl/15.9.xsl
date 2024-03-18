@@ -1,4 +1,7 @@
 <?xml version = "1.0" encoding="UTF-8" ?>
+<!-- Group of 36-->
+<!--- Zhong Tao 300222579 -->
+<!--  Fengshou Xu 300036335-->
 
 <xsl:stylesheet version = "1.0"
                 xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
@@ -8,7 +11,6 @@
             <head>
                 <title>Nutrition Information</title>
                 <meta charset = "utf-8"/>
-                <link rel = "stylesheet" type = "text/css" href = "../css/15.9.css"/>
             </head>
             <body>
 
