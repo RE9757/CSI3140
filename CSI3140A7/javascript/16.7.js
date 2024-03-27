@@ -40,13 +40,13 @@ function checkEmailAgainstList(emailField) {
             var emailArray = Array.from(emails).map(function(node) {
                 return node.textContent.trim().toLowerCase();
             });
-            if (!emailArray.includes(emailField.value.trim().toLowerCase())) {
-                errorDiv.textContent = 'Email is not on the allowed list.';
+            if (emailArray.includes(emailField.value.trim().toLowerCase())) {
+                errorDiv.textContent = 'This email address is not allowed to post feedback.';
                 errorDiv.style.display = 'block';
             } else {
-                errorDiv.textContent = 'Email is on the allowed list.';
+                errorDiv.textContent = '';
                 errorDiv.style.display = 'none';
-            }
+            }            
         } else {
             errorDiv.textContent = 'Error checking email against list.';
             errorDiv.style.display = 'block';
