@@ -1,0 +1,4 @@
+[
+  {"id": "1", "title": "Smart phone", "thumbnail": "../img/thumb_a.jpg", "price": "998"},
+  {"id": "2", "title": "Home phone", "thumbnail": "../img/thumb_b.jpg", "price": "250"}
+]

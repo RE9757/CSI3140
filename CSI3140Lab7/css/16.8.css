@@ -1,0 +1,25 @@
+/* Group of 36 */
+/* Zhong Tao 300222579 */
+/* Fengshou Xu 300036335 */
+
+
+.product-card {
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.product-card img {
+    max-width: 200px; 
+    height: 100px;
+    border-radius: 4px; 
+    margin-bottom: 10px; 
+}
+
+.product-card img:hover {
+    max-width: 200px; 
+    transition: max-width 0.3s ease; 
+}
